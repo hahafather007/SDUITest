@@ -1,0 +1,91 @@
+{
+  "id": 1,
+  "tag": "root",
+  "type": "FrameLayout",
+  "width": -1,
+  "height": -1,
+  "background": {
+    "color": "#ff003333"
+  },
+  "children": [
+    {
+      "id": 2,
+      "tag": "image",
+      "type": "ImageView",
+      "width": 60,
+      "height": 60,
+      "position": {
+        "left": 100,
+        "top": 20
+      }
+    },
+    {
+      "id": 3,
+      "tag": "title",
+      "type": "TextView",
+      "width": 60,
+      "height": 60,
+      "gravity": "center",
+      "position": {
+        "gravity": "center"
+      }
+    },
+    {
+      "id": 4,
+      "tag": "contents",
+      "type": "LinearLayout",
+      "width": -2,
+      "height": -2,
+      "background": {
+        "color": "#fff0f0f0"
+      },
+      "orientation": "vertical",
+      "position": {
+        "gravity": "bottom"
+      },
+      "children": [
+        {
+          "id": 5,
+          "tag": "text1",
+          "type": "TextView",
+          "width": 100,
+          "height": 40
+        },
+        {
+          "id": 6,
+          "tag": "text2",
+          "type": "TextView",
+          "width": -2,
+          "height": -2
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "tag": "list",
+      "type": "RecyclerView",
+      "position": {
+        "right": 0,
+        "top": 0
+      },
+      "children": [
+        {
+          "id": 8,
+          "tag": "image",
+          "type": "ImageView",
+          "width": -40,
+          "height": -30,
+          "binderType": 1
+        },
+        {
+          "id": 9,
+          "tag": "title",
+          "type": "TextView",
+          "width": -2,
+          "height": -2,
+          "binderType": 0
+        }
+      ]
+    }
+  ]
+}

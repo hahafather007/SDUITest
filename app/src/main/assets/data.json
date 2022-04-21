@@ -1,0 +1,28 @@
+{
+  "root": {
+    "image": "https://t7.baidu.com/it/u=2405382010,1555992666&fm=193&f=GIF",
+    "title": "这是一个标题",
+    "contents": {
+      "text1": "文字1",
+      "text2": "文字2"
+    },
+    "list": [
+      {
+        "title": "标题1",
+        "binderType": 0
+      },
+      {
+        "title": "标题2",
+        "binderType": 0
+      },
+      {
+        "image": "https://t7.baidu.com/it/u=4162611394,4275913936&fm=193&f=GIF",
+        "binderType": 1
+      },
+      {
+        "image": "https://t7.baidu.com/it/u=737555197,308540855&fm=193&f=GIF",
+        "binderType": 1
+      }
+    ]
+  }
+}
